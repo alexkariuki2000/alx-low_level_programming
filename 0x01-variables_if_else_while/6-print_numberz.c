@@ -17,6 +17,6 @@ int main(void)
 	n += 1;
 }
 	printf("\n");
-	return (0);
 
+	return (0);
 }
