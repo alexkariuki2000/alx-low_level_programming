@@ -15,11 +15,8 @@ int main(void)
 {
 	putchar(n);
 	n += 1;
-
 }
-
 	printf("\n");
-
 	return (0);
 
 }
