@@ -1,22 +1,13 @@
-#include "holberton.h"
+#include <unistd.h>
 
 /**
- * main - program that prints Holberton.
- *
- * Return: int
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
-{
-	int n = 0;
+int _putchar(char c)
 
-	char str_hbt[9] = "Holberton";
-
-	while (n < 9)
 {
-	_putchar(str_hbt[n]);
-	n += 1;
-{
-	_putchar('\n');
-
-	return (0);
+	return (write(1, &c, 1));
 }
