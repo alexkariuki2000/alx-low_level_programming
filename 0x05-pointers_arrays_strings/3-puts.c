@@ -4,7 +4,8 @@
  * _puts - function that prints a string
  * @str: pointer to char
  * Return: nothing
- */   
+ */
+
 void _puts(char *str)
 
 {
