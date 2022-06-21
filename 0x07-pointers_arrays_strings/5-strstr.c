@@ -23,10 +23,10 @@ char *_strstr(char *haystack, char *needle)
 	&& *haystack != '\0')
 {
 	haystack++;
-	aux++;																			
+	aux++;
 }
 	if (*aux == '\0')
-		return (res);
+	return (res);
 	haystack = res + 1;
 }
 	return (NULL);
