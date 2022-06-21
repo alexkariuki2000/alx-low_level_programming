@@ -5,10 +5,9 @@
  * @s: mamory area to return
  * @b: constant byte
  * @n: size of bytes
- *
  * Return: char
  */
- 
+
 char *_memset(char *s, char b, unsigned int n)
 
 {
