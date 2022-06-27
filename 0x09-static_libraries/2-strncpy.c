@@ -8,7 +8,7 @@
  * Return: char
  */
 
-char *_strncpy(char *dest, char *src, int )
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
 
